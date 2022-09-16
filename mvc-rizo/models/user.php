@@ -7,7 +7,7 @@ function user_model_insert($request){
         $$key=mysqli_real_escape_string($con,$value);
     }
     $password = password_hash($password, PASSWORD_BCRYPT);
-    $sql = "INSERT INTO user (name, email, birthday, username, password) VALUES ('$name','$email','$birthday','$username','$password')";
+    $sql = "INSERT INTO user (name, userName, birthday, password) VALUES ('$name','$userName','$birthday','$password')";
     mysqli_query($con, $sql);
     mysqli_close($con);
 }

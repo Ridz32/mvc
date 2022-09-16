@@ -26,5 +26,5 @@ print_r($data)
   </label>
   <input type="submit" value="login">
 </form>
-<small>username: marcos@caramail.com<br>password: 100%</small>
+<small>username: marcos@caramail.com<br>cemporcento</small>
  

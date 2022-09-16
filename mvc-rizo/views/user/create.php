@@ -5,7 +5,7 @@
         </label>
         <label>
             Courriel
-            <input type="email" name="username" required>
+            <input type="email" name="userName" required>
         </label>
         <label>
             Date de naissance
