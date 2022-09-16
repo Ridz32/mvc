@@ -14,7 +14,7 @@ CREATE TABLE forum(
   idForum INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(100),
   article TEXT(1000),
-  creationDate DATETIME NOT NULL,
+  creationDate DATE NOT NULL,
   author INT NOT NULL,
   CONSTRAINT fk_forum_users1 FOREIGN KEY (author) REFERENCES user (userId) ON DELETE NO ACTION ON UPDATE NO ACTION
 );
